@@ -1,0 +1,81 @@
+.card {
+	background-color: rgb(230, 230, 230);
+	margin: 10px;
+	padding: 20px;
+	border-radius: 6px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-basis: 250px;
+	flex-grow: 1;
+}
+
+
+.card img {
+	width: 150px;
+	border-radius: 6px;
+}
+
+.card ul {
+	margin-top: 50px;
+}
+
+#ocard {
+	box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+}
+
+.block-card {
+	display: block;
+	align-items: left;
+	text-align: right;
+}
+
+.block-card h3 {
+	margin-left: 20px;
+	padding: 0px;
+	margin-top: 0px;
+}
+
+.block-card img {
+	margin-left: 40px;
+	width: 400px;
+}
+
+.card h3, ul {
+  	padding-left: 20px;
+  	flex-grow: 1;
+}
+
+
+.main-card {
+	display: flex;
+	flex-wrap: wrap;
+	flex-grow: 1;
+}
+
+.card-team {
+	padding-left: 20px;
+  	flex-grow: 1;
+}
+
+.card-team img {
+	width: 150px;
+	border-radius: 50%;
+}
+#large-card {
+	background-color: rgb(230, 230, 230);
+	width: auto;
+	margin: 30px auto 0px;
+  	border-radius: 6px;
+  	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+#large-card img {
+	width: 100px;
+	margin-top: 40px;
+}
+
+.typeform-widget {
+	margin-top: 80px;
+}
